@@ -49,13 +49,15 @@ Learn all about the different types and variables in Go by building fundamental 
 
 Exercises
 
-- [ ] 1. Values and Variables
+- [x] 1. Values and Variables
 
-- [ ] 2. Literals
+- [x] 2. Literals
 
-- [ ] 3. Constants
+- [x] 3. Constants
 
-- [ ] 4. What is a Data Type?
+- [x] 4. What is a Data Type?
+
+!(DataType)[./src/DataType.png]
 
 - [ ] 5. Basic Numeric Types in Go
 

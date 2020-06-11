@@ -1,6 +1,7 @@
+#!/bin/sh
 
-go doc fmt 
+echo "go doc fmt"
 
-go doc fmt.Println
+echo "go doc fmt.Println"
 
-go doc time.Now
+echo "go doc time.Now"
