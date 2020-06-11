@@ -57,7 +57,7 @@ Exercises
 
 - [x] 4. What is a Data Type?
 
-!(DataType)[./src/DataType.png]
+![DataType](./src/DataType.png)
 
 - [ ] 5. Basic Numeric Types in Go
 
