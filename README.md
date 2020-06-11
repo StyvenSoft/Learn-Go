@@ -26,21 +26,21 @@ Get go ing by learning the basics of Google’s very own programming language,
 
 Exercises
 
-- [ ] 1. From the Get Go
+- [x] 1. From the Get Go
 
-- [ ] 2. Compiling
+- [x] 2. Compiling
 
-- [ ] 3. Running Files
+- [x] 3. Running Files
 
-- [ ] 4. Basic Go Structure: Packages
+- [x] 4. Basic Go Structure: Packages
 
-- [ ] 5. Basic Go Structure: main
+- [x] 5. Basic Go Structure: main
 
-- [ ] 6. Importing Multiple Packages
+- [x] 6. Importing Multiple Packages
 
-- [ ] 7. Comments
+- [x] 7. Comments
 
-- [ ] 8. Go Resources
+- [x] 8. Go Resources
 
 ---
 
