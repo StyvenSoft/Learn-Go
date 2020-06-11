@@ -42,6 +42,41 @@ Exercises
 
 - [x] 8. Go Resources
 
+
+## LESSON 2 Learn Go: Variables and Types
+
+Learn all about the different types and variables in Go by building fundamental programming knowledge.
+
+Exercises
+
+- [ ] 1. Values and Variables
+
+- [ ] 2. Literals
+
+- [ ] 3. Constants
+
+- [ ] 4. What is a Data Type?
+
+- [ ] 5. Basic Numeric Types in Go
+
+- [ ] 6. What is a Variable?
+
+- [ ] 7. Reading Go Errors
+
+- [ ] 8. Assigning Variables
+
+- [ ] 9. Strings
+
+- [ ] 10. Zero Values
+
+- [ ] 11. Inferring Type
+
+12. Default int Type
+
+13. Updating Variables
+
+14. Multiple Variable Declaration
+
 ---
 
 [Documentation The Go programming language](https://golang.org/doc/)
