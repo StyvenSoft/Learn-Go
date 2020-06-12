@@ -61,6 +61,8 @@ Exercises
 
 - [ ] 5. Basic Numeric Types in Go
 
+![NumericTypes](./src/NumericTypes.png)
+
 - [ ] 6. What is a Variable?
 
 - [ ] 7. Reading Go Errors
