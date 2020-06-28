@@ -73,13 +73,34 @@ Exercises
 
 - [x] 10. Zero Values
 
-- [ ] 11. Inferring Type
+- [x] 11. Inferring Type
 
-12. Default int Type
+- [x] 12. Default int Type
 
-13. Updating Variables
+- [x] 13. Updating Variables
 
-14. Multiple Variable Declaration
+- [x] 14. Multiple Variable Declaration
+
+
+## LESSON 3 Learn Go: fmt Package
+
+Explore more of Go’s fmt package methods!
+
+Exercises
+
+- [ ] 1. The fmt Package
+
+- [ ] 2. The Print Method
+
+- [ ] 3. The Printf Method
+
+- [ ] 4. Different Verbs
+
+- [ ] 5. Sprint and Sprintln
+
+- [ ] 6. The Sprintf Method
+
+- [ ] 7. Getting User Input
 
 ---
 
