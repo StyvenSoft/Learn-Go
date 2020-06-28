@@ -59,19 +59,19 @@ Exercises
 
 ![DataType](./src/DataType.png)
 
-- [ ] 5. Basic Numeric Types in Go
+- [x] 5. Basic Numeric Types in Go
 
 ![NumericTypes](./src/NumericTypes.png)
 
-- [ ] 6. What is a Variable?
+- [x] 6. What is a Variable?
 
-- [ ] 7. Reading Go Errors
+- [x] 7. Reading Go Errors
 
-- [ ] 8. Assigning Variables
+- [x] 8. Assigning Variables
 
-- [ ] 9. Strings
+- [x] 9. Strings
 
-- [ ] 10. Zero Values
+- [x] 10. Zero Values
 
 - [ ] 11. Inferring Type
 
