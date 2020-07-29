@@ -98,11 +98,56 @@ Exercises
 
 The format 'verbs' are derived from C's but are simpler. [their documentation](https://golang.org/pkg/fmt/#hdr-Printing)
 
-- [ ] 5. Sprint and Sprintln
+- [x] 5. Sprint and Sprintln
 
-- [ ] 6. The Sprintf Method
+- [x] 6. The Sprintf Method
 
-- [ ] 7. Getting User Input
+- [x] 7. Getting User Input
+
+## LESSON 4 Learn Go: Conditionals
+
+If you want to learn how to include conditionals into your Go program, take this lesson! Else, you can use this lesson to review conditionals.
+
+Exercises
+
+- [x] 1. What are Conditionals?
+
+Conditionals check on values and, depending on their status (if the values turn out to be true or false), executes an appropriate block of code in response.
+
+- [x] 2. The if Statement
+
+- [x] 3. The else Statement
+
+- [x] 4. Comparison Operators
+
+| Operator   | Meanig:     |
+| ---------- | ----------  |
+| ==         | Is equal to |
+| !=         | Is NOT equal to   |
+
+- [x] 5. Comparison Operators Continued
+
+| Operator   | Meanig:     |
+| ---------- | ----------  |
+| <          | Less than   |
+| >          | Greater than   |
+| <=         | Less than or equal to   |
+| >=         | Greater than or equal to   |
+
+
+- [ ] 6. Logical Operators (And, Or)
+
+- [ ] 7. Logical Operators (Not)
+
+- [ ] 8. The else if Statement
+
+- [ ] 9. The switch Statement
+
+- [ ] 10. Scoped Short Declaration Statement
+
+- [ ] 11. Randomizing
+
+- [ ] 12. Seeding
 
 ---
 
