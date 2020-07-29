@@ -88,11 +88,11 @@ Explore more of Go’s fmt package methods!
 
 Exercises
 
-- [ ] 1. The fmt Package
+- [x] 1. The fmt Package
 
-- [ ] 2. The Print Method
+- [x] 2. The Print Method
 
-- [ ] 3. The Printf Method
+- [x] 3. The Printf Method
 
 - [ ] 4. Different Verbs
 
