@@ -94,7 +94,9 @@ Exercises
 
 - [x] 3. The Printf Method
 
-- [ ] 4. Different Verbs
+- [x] 4. Different Verbs
+
+The format 'verbs' are derived from C's but are simpler. [their documentation](https://golang.org/pkg/fmt/#hdr-Printing)
 
 - [ ] 5. Sprint and Sprintln
 
