@@ -147,13 +147,30 @@ Conditionals check on values and, depending on their status (if the values turn 
 
 - [x] 8. The else if Statement
 
-- [ ] 9. The switch Statement
+- [x] 9. The switch Statement
 
-- [ ] 10. Scoped Short Declaration Statement
+- [x] 10. Scoped Short Declaration Statement
 
-- [ ] 11. Randomizing
+- [x] 11. Randomizing
 
-- [ ] 12. Seeding
+- [x] 12. Seeding
+
+```go
+
+package main
+
+import (
+  "fmt"
+  "math/rand"
+  "time"
+)
+
+func main() {
+  rand.Seed(time.Now().UnixNano())
+  fmt.Println(rand.Intn(100))
+}
+
+```
 
 ---
 

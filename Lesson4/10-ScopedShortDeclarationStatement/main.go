@@ -15,18 +15,16 @@ func main() {
 		fmt.Println("Go out and enjoy the sun!")
 	}
 
-	success := true
-
-	if success {
+	
+	if success := true; success {
 		fmt.Println("We're rich!")
 	} else {
 		fmt.Println("Where did we go wrong?")
 	}
 
 	amountStolen := 50000
-	numOfThieves := 5
 
-	switch numOfThieves {
+	switch numOfThieves := 5; numOfThieves {
 	case 1:
 		fmt.Println("I'll take all $", amountStolen)
 	case 2:
