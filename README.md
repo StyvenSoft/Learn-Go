@@ -135,11 +135,17 @@ Conditionals check on values and, depending on their status (if the values turn 
 | >=         | Greater than or equal to   |
 
 
-- [ ] 6. Logical Operators (And, Or)
+- [x] 6. Logical Operators (And, Or)
 
-- [ ] 7. Logical Operators (Not)
+| Operator   | Meanig:     |
+| ---------- | ----------  |
+| &&         | And         |
+| ||         | Or          |
+| !          | Not         |
 
-- [ ] 8. The else if Statement
+- [x] 7. Logical Operators (Not)
+
+- [x] 8. The else if Statement
 
 - [ ] 9. The switch Statement
 
