@@ -172,6 +172,55 @@ func main() {
 
 ```
 
+## LESSON 5 Learn Go: Functions
+
+Learn about how to create functions, reusable code that takes certain parameters and uses them to add modularity to your programs!
+
+Exercises
+
+- [x] 1. What is a Function?
+
+In programming, a function is a block of code designed to be reused. As programmers, we want to find solutions to problems, but we also don’t want to do additional work when it’s not necessary. 
+
+```go
+
+func doubleNum(num int) int {
+  return num * 2
+}
+
+fmt.Println(doubleNum(x)) // Prints: 10
+fmt.Println(doubleNum(y)) // Prints: 6
+
+```
+
+- [x] 2. Using Functions
+
+- [x] 3. Scope
+
+- [x] 4. Returning Values from Functions
+
+- [x] 5. Using Function Parameters
+
+```go
+
+func multiplier(x, y int32) int32 {
+  return x * y
+}
+
+func main() {
+  var product int32
+  product = multiplier(25, 4)
+  fmt.Println(product) // Prints: 100
+}
+
+```
+
+- [ ] 6. Reusing Code with Functions
+
+- [ ] 7. Multiple Return Values
+
+- [ ] 8. Deferring Resolution
+
 ---
 
 [Documentation The Go programming language](https://golang.org/doc/)
