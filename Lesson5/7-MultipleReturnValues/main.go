@@ -2,7 +2,7 @@ package main
 import "fmt"
 
 // Update getLikesAndShares to return two ints
-func getLikesAndShares(postId int) {
+func getLikesAndShares(postId int) (int, int){
   var likesForPost, sharesForPost int
   switch postId {
   case 1:
@@ -20,7 +20,25 @@ func getLikesAndShares(postId int) {
   }
   fmt.Println("Likes: ", likesForPost, "Shares: ", sharesForPost)
   // Add in a return for likesForPost and sharesForPost
-  
+  return likesForPost, sharesForPost
+}
+
+func GPA(midtermGrade float32, finalGrade float32) (string, float32) {
+  averageGrade := (midtermGrade + finalGrade) / 2
+  var gradeLetter string
+  if averageGrade > 90 {
+    gradeLetter = "A"
+  } else if averageGrade > 80 {
+    gradeLetter = "B"
+  } else if averageGrade > 70 {
+    gradeLetter = "C"
+  } else if averageGrade > 60 {
+    gradeLetter = "D"
+  } else {
+    gradeLetter = "F"
+  }
+
+  return gradeLetter, averageGrade 
 }
 
 func main() {
@@ -28,7 +46,7 @@ func main() {
   
   // Update this line so the results of the function
   // get stored in "likes" and "shares"
-  getLikesAndShares(4)
+  likes, shares = getLikesAndShares(4)
   
   if likes > 5 {
     fmt.Println("Woohoo! We got some likes.")
@@ -36,4 +54,13 @@ func main() {
   if shares > 10 {
     fmt.Println("We went viral!")
   }
+
+  var myMidterm, myFinal float32
+  myMidterm = 89.4
+  myFinal = 74.9
+  var myAverage float32
+  var myGrade string
+  myGrade, myAverage = GPA(myMidterm, myFinal)
+  fmt.Println(myAverage, myGrade) // Prints 82.12 B
+  
 }

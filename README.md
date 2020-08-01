@@ -215,11 +215,31 @@ func main() {
 
 ```
 
-- [ ] 6. Reusing Code with Functions
+- [x] 6. Reusing Code with Functions
 
-- [ ] 7. Multiple Return Values
+- [x] 7. Multiple Return Values
 
-- [ ] 8. Deferring Resolution
+- [x] 8. Deferring Resolution
+
+```go
+func calculateTaxes(revenue, deductions, credits float64) float64 {
+  defer fmt.Println("Taxes Calculated!")
+  taxRate := .06143
+  fmt.Println("Calculating Taxes")
+
+  if deductions == 0 || credits == 0 {
+    return revenue * taxRate
+  }
+
+
+  taxValue := (revenue - (deductions * credits)) * taxRate
+  if taxValue >= 0 {
+    return taxValue
+  } else {
+    return 0
+  }
+}
+```
 
 ---
 
