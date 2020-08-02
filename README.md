@@ -259,11 +259,19 @@ But, we do have the ability to change values from different scopes. To do so, we
 
 - [ ] 2. Addresses
 
-- [ ] 3. Pointers
+```go
+x := "My very first address"
+fmt.Println(&x) // Prints 0x414020
 
-- [ ] 4. Dereferencing
+```
 
-- [ ] 5. Changing Values in Different Scopes
+- [x] 3. Pointers
+
+![addresses](./src/addresses.png)
+
+- [x] 4. Dereferencing
+
+- [x] 5. Changing Values in Different Scopes
 
 ---
 
