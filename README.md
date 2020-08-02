@@ -241,6 +241,30 @@ func calculateTaxes(revenue, deductions, credits float64) float64 {
 }
 ```
 
+## LESSON 6 Learn Go: Addresses and Pointers
+
+Dive deeper into how Go stores values in memory using addresses and pointers!
+
+Exercises
+
+- [x] 1. The Point of Pointers and Addresses
+
+Go is a pass-by-value language. In other words, we’re passing functions the value of an argument. In a technical sense, when we’re calling a function with an argument, the Go compiler is strictly using the <b>value</b> of the argument rather than the argument itself. Because of this feature (pass-by-value), the changes that take place in our function, stay within that function
+
+But, we do have the ability to change values from different scopes. To do so, we need to make use of:
+
+- addresses
+- pointers
+- dereferencing
+
+- [ ] 2. Addresses
+
+- [ ] 3. Pointers
+
+- [ ] 4. Dereferencing
+
+- [ ] 5. Changing Values in Different Scopes
+
 ---
 
 [Documentation The Go programming language](https://golang.org/doc/)
